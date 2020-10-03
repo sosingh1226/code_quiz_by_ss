@@ -1,0 +1,40 @@
+Overall Changes-
+1. Lot of Div tags were open and to make sure its closed and coordinated
+
+2. >, ", were missing in a lot of lines
+
+3. Logic file (logic.js) needed to be changed a lot in order for the functions to work.
+
+
+Button 1-
+
+Text Syle- Color, height
+
+Button 2-
+
+Elimination of Instruction Box
+
+Button 3- 
+
+There were broken links in About Boo
+
+Button 4-
+
+Dog Image missing, referencing it with punctuations
+
+Button 5-
+
+Radom Boo Facts- Wouldn't change. Had to make changes in logic.js file with FactArray 
+
+Button 6-
+
+Color of "Boo Rules" wouldn't change, because of punctuation and also miss match of button words with actual colors.
+
+Button 7-
+
+Grow Shrink wouldn't work.
+Had to go to logic.js file in order to change the brackets and tags matching with the equivalent Grumpy Cat File
+
+Button 8-
+
+List of Boo's Favorite Things - missing. <ol> & <li> tags
