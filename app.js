@@ -1,14 +1,12 @@
+// Setting Timer for the trivia
+
 var initials = document.querySelector("#initials")
 var submit_initials = document.querySelector("#submit_initials")
-
-console.log("--->1")
 
 var timerCount = 100
 var timerEl = document.querySelector("#timer")
 
 timerEl.textContent = timerCount
-
-console.log("--->2")
 
 var timer = window.setInterval(function () {
   timerCount--;
@@ -18,6 +16,8 @@ var timer = window.setInterval(function () {
     clearInterval(timer)
   }
 }, 1000)
+
+// Setting up trivia questions in a function and objects including question, choices and correct answer
 
 var questions = [
   {
@@ -44,31 +44,29 @@ var questions = [
     q: "Because of its alcohol content, wine has more calories than the same amount of grape juice. True or False?",
     choices: ["True", "False"],
     a: "False"
-  }]
+  }
+]
 
-
+// Setting the question number to 0 before the loop starts
 var questionsPointer = 0
 
-console.log("--->3")
+// declaring all IDs from HTML to use into JS
 
 var question = document.querySelector("#questions")
 var optionA = document.querySelector("#optionA")
 var optionB = document.querySelector("#optionB")
 var results = document.querySelector("#results")
 
-
+// initially set the initial name and submit button hidden
 initials.style.visibility = "hidden";
 submit_initials.style.visibility = "hidden";
 
-console.log("--->4")
+// declaring the function a with to start a loop for the questionnaire
 
 function setQuestions() { 
   
-  console.log("--->5")
-  console.log("question number: "+questionsPointer)
-
   if (questionsPointer === questions.length) {
-    console.log("--->6")
+    
     clearInterval(timer)
     alert("You are done with " + timerCount + " time left")
 
@@ -92,16 +90,18 @@ function setQuestions() {
 
   }
 
+
   question.textContent = questions[questionsPointer].q
   optionA.textContent = questions[questionsPointer].choices[0]
   optionB.textContent = questions[questionsPointer].choices[1]
   
-  console.log("--->7")
 
 }
 
-
+// run this trivia questions in a series
 setQuestions()
+
+// alerting if the answer is correct and we're moving on to the next question
 
 optionA.addEventListener("click", function () {
   if (optionA.getAttribute("data-answer") === questions[questionsPointer].a) {
@@ -115,6 +115,8 @@ optionA.addEventListener("click", function () {
     setQuestions()
   }
 })
+
+// alreting if the answer is wrong 10 seconds have been subtracted from the timer
 
 optionB.addEventListener("click", function () {
   if (optionB.getAttribute("data-answer") === questions[questionsPointer].a) {

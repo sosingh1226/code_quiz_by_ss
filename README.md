@@ -14,10 +14,10 @@ Application of Botstrap made it eye-soothing
 
 Screenshots Below
 
-![Screenshot1] (./Assets/Screen Shot 2020-10-23 at 11.39.58 PM.png)
-![Screenshot1] (./Assets/Screen Shot 2020-10-23 at 11.40.10 PM.png)
-![Screenshot1] (./Assets/Screen Shot 2020-10-23 at 11.40.19 PM.png)
-![Screenshot1] (./Assets/Screen Shot 2020-10-23 at 11.40.36 PM.png)
+![Screenshot1] (./Assets/screenshot1)
+![Screenshot1] (./Assets/screenshot2)
+![Screenshot1] (./Assets/screenshot3)
+![Screenshot1] (./Assets/screenshot4)
 
 
 THANK YOU!
