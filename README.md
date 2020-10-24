@@ -14,10 +14,10 @@ Application of Botstrap made it eye-soothing
 
 Screenshots Below
 
-![Screenshot1] (./Assets/screenshot1.png)
-![Screenshot1] (./Assets/screenshot2.png)
-![Screenshot1] (./Assets/screenshot3.png)
-![Screenshot1] (./Assets/screenshot4.png)
+![Screenshot1](./Assets/screenshot1.png)
+![Screenshot1](./Assets/screenshot2.png)
+![Screenshot1](./Assets/screenshot3.png)
+![Screenshot1](./Assets/screenshot4.png)
 
 
 THANK YOU!
