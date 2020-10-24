@@ -1,3 +1,27 @@
+URL of the deployed application:
+
+https://sosingh1226.github.io/03_PasswordGeneratorBySoumya/
+
+URL of the GitHub Repo:
+
+https://github.com/sosingh1226/code_quiz_by_ss.git
+
+This trivia was fun and tricky!
+
+Applied various JavaScript functions and features
+
+Application of Botstrap made it eye-soothing
+
+Screenshots Below
+
+![Screenshot1] (./Assets/Screen Shot 2020-10-23 at 11.39.58 PM.png)
+![Screenshot1] (./Assets/Screen Shot 2020-10-23 at 11.40.10 PM.png)
+![Screenshot1] (./Assets/Screen Shot 2020-10-23 at 11.40.19 PM.png)
+![Screenshot1] (./Assets/Screen Shot 2020-10-23 at 11.40.36 PM.png)
+
+
+THANK YOU!
+
 # 04 Web APIs: Code Quiz
 
 ## Your Task
