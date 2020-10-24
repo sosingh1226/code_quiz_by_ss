@@ -1,6 +1,6 @@
 URL of the deployed application:
 
-https://sosingh1226.github.io/03_PasswordGeneratorBySoumya/
+https://sosingh1226.github.io/code_quiz_by_ss/
 
 URL of the GitHub Repo:
 
@@ -14,10 +14,10 @@ Application of Botstrap made it eye-soothing
 
 Screenshots Below
 
-![Screenshot1] (./Assets/screenshot1)
-![Screenshot1] (./Assets/screenshot2)
-![Screenshot1] (./Assets/screenshot3)
-![Screenshot1] (./Assets/screenshot4)
+![Screenshot1] (./Assets/screenshot1.png)
+![Screenshot1] (./Assets/screenshot2.png)
+![Screenshot1] (./Assets/screenshot3.png)
+![Screenshot1] (./Assets/screenshot4.png)
 
 
 THANK YOU!
